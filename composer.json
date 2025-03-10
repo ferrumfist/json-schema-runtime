@@ -44,6 +44,9 @@
         "process-timeout": 1800,
         "sort-packages": true
     },
+    "replace": {
+        "janephp/json-schema-runtime": "self.version"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
