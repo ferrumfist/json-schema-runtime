@@ -45,7 +45,7 @@
         "sort-packages": true
     },
     "replace": {
-        "janephp/json-schema-runtime": "self.version"
+        "jane-php/json-schema-runtime": "self.version"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
