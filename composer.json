@@ -1,5 +1,5 @@
 {
-    "name": "jane-php/json-schema-runtime",
+    "name": "ferrumfist/json-schema-runtime",
     "type": "library",
     "description": "Jane runtime Library",
     "license": "MIT",
@@ -43,6 +43,9 @@
     "config": {
         "process-timeout": 1800,
         "sort-packages": true
+    },
+    "replace": {
+        "janephp/json-schema-runtime": "self.version"
     },
     "minimum-stability": "dev",
     "prefer-stable": true
